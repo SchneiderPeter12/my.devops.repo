@@ -29,3 +29,10 @@ tasks.named('test') {
 	useJUnitPlatform()
 
 }
+
+tasks.register("maggi") {
+	doFirst {
+		println("Michel stinkt nach Maggi");
+		testConcatenate();
+	}
+}
