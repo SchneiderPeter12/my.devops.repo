@@ -10,9 +10,5 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 
-	@Test
-	void newTest() {
-		throw new Exception();
-	}
 
 }
